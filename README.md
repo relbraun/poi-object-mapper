@@ -30,7 +30,7 @@ To install manually, please check the [releases](https://github.com/millij/poi-o
 
 #### Dependencies
 
-The current implementation uses **POI version 3.17**.
+The current implementation uses **POI version 4.0.1**.
 
 
 ## Usage
@@ -63,6 +63,9 @@ public class Employee {
         return name;
     }
     ...
+    //this column will not be presented in the excel sheet.
+    @NoSheetColumn()
+    private String socialSecurityNumber;
 }
 ```
 
