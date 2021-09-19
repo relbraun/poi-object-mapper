@@ -2,7 +2,7 @@ package io.github.millij.poi.ss.writer;
 
 import io.github.millij.bean.Company;
 import io.github.millij.bean.Employee;
-import io.github.millij.poi.ss.writer.SpreadsheetWriter;
+import io.github.relbraun.poi.ss.writer.SpreadsheetWriter;
 
 import java.io.File;
 import java.io.IOException;

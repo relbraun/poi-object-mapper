@@ -1,4 +1,4 @@
-package io.github.millij.poi.util;
+package io.github.relbraun.poi.util;
 
 import java.beans.Introspector;
 import java.beans.PropertyDescriptor;

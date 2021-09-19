@@ -1,4 +1,4 @@
-package io.github.millij.poi.ss.model.annotations;
+package io.github.relbraun.poi.ss.model.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

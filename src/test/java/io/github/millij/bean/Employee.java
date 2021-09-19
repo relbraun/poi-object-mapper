@@ -1,7 +1,7 @@
 package io.github.millij.bean;
 
-import io.github.millij.poi.ss.model.annotations.Sheet;
-import io.github.millij.poi.ss.model.annotations.SheetColumn;
+import io.github.relbraun.poi.ss.model.annotations.Sheet;
+import io.github.relbraun.poi.ss.model.annotations.SheetColumn;
 
 
 @Sheet
@@ -23,12 +23,22 @@ public class Employee {
     @SheetColumn("Address")
     private String address;
 
+    private String socialSec;
+
 
     // Constructors
     // ------------------------------------------------------------------------
 
     public Employee() {
         // Default
+    }
+
+    public String getSocialSec() {
+        return socialSec;
+    }
+
+    public void setSocialSec(String socialSec) {
+        this.socialSec = socialSec;
     }
 
     public Employee(String id, String name, Integer age, String gender, Double height) {

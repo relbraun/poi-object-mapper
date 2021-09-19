@@ -1,4 +1,4 @@
-package io.github.millij.poi;
+package io.github.relbraun.poi;
 
 
 public class SpreadsheetReadException extends Exception {

@@ -1,7 +1,4 @@
-package io.github.millij.poi.util;
-
-import io.github.millij.poi.ss.model.annotations.SheetColumn;
-import io.github.millij.poi.ss.model.annotations.NoSheetColumn;
+package io.github.relbraun.poi.util;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -16,6 +13,8 @@ import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import io.github.relbraun.poi.ss.model.annotations.SheetColumn;
 
 /**
  * Spreadsheet related utilites.

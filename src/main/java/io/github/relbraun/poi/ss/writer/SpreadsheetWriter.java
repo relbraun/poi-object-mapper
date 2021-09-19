@@ -1,7 +1,4 @@
-package io.github.millij.poi.ss.writer;
-
-import io.github.millij.poi.ss.model.annotations.Sheet;
-import io.github.millij.poi.util.Spreadsheet;
+package io.github.relbraun.poi.ss.writer;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -23,8 +20,11 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import io.github.relbraun.poi.ss.model.annotations.Sheet;
+import io.github.relbraun.poi.util.Spreadsheet;
 
-@Deprecated
+
+
 public class SpreadsheetWriter {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(SpreadsheetWriter.class);

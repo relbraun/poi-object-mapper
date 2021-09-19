@@ -1,6 +1,4 @@
-package io.github.millij.poi.ss.handler;
-
-import io.github.millij.poi.util.Spreadsheet;
+package io.github.relbraun.poi.ss.handler;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,6 +8,8 @@ import org.apache.poi.xssf.eventusermodel.XSSFSheetXMLHandler.SheetContentsHandl
 import org.apache.poi.xssf.usermodel.XSSFComment;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import io.github.relbraun.poi.util.Spreadsheet;
 
 
 abstract class AbstractSheetContentsHandler implements SheetContentsHandler {
